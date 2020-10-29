@@ -14,6 +14,8 @@ then
 	./ex3missatges
 	echo "Retornant a la configuració inicial"
 	sudo rm -f /etc/rsyslog.d/30-mylog.conf
+	echo "Fet"
+	echo "Llegeix el fitxer /var/log/prova.log/ com a sudo per a veure els resultats"
 else
 	echo "ERROR: S'ha d'executar com a root"
 fi
